@@ -12,7 +12,7 @@ const routes: Routes = [
   //   ],
   //   // canActivate: [AuthGuard]
   // },
-  { path: 'authenticatino', loadChildren: () => import('./modules/authentication/authentication.module').then(m => m.AuthenticationModule) },
+  { path: 'authentication', loadChildren: () => import('./modules/authentication/authentication.module').then(m => m.AuthenticationModule) },
   { path: 'van-calculation', loadChildren: () => import('./modules/van-calculation/van-calculation.module').then(m => m.VanCalculationModule) }
   // { path: 'notpermitted', component: NotFoundComponent },
 
